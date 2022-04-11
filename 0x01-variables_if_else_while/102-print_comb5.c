@@ -4,7 +4,7 @@
  * Description: print all possible combinations of two-digit numbers.
  * Numbers should range from 0 to 99.
  * The two numbers should be seperated by a space.
- * All numbers should start be printed with two digits. 1 should be printed as 01.
+ * All numbers should be printed with two digits. 1 should be printed as 01.
  * Combination of numbers must be seperated by a comma followed by a space.
  * Combinations of numbers should be printed in ascending order.
  * '00 01' and '01 00' are considered as the same combination.
@@ -28,7 +28,7 @@ for (j = 0; j < 100; j++)
 c = j / 10; /* doubles snum */
 d = j % 10; /* singles snum */
 
-if (a < c || (a == c &&b < d))
+if (a < c || (a == c && b < d))
 {
 putchar(a + '0');
 putchar(b + '0');
