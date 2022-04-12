@@ -13,7 +13,7 @@ if (n >= 0 && n <= 15)
 {
 for (num = 0; num <= n; num++)
 {
-putchar('0');
+_putchar('0');
 
 for (mult = 1; mult <= n; mult++)
 {
@@ -38,7 +38,7 @@ _putchar((prod / 10) + '0');
 }
 _putchar((prod % 10) + '0');
 }
--putchar('\n');
+_putchar('\n');
 }
 }
 }
