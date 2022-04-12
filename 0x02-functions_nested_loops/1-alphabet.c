@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success/correct)
  */
 
-void print_alphabet(void)
+void print_alphabet(void);
 {
 char alphabet;
 
