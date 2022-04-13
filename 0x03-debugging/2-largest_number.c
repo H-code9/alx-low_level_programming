@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -27,3 +28,4 @@ largest = c;
 
 return (largest);
 }
+
